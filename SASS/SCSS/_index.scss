@@ -1,0 +1,20 @@
+.logotipo{
+    margin-left: 100px;
+    .LOGONAV{
+        height: 60px;
+        width: 200px;
+        border-radius: 40px;
+            .PaginasMenu{
+                margin-right: 75px;
+                .nav-item{
+                    padding-right: 15px;
+                    a {
+                        text-decoration: none;
+                        color: white !important;
+                        padding: 0px 10px 0px 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }

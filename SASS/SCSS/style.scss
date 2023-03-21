@@ -1,0 +1,288 @@
+@import "./reset";
+
+
+
+/* CSS INDEX, HEADER, NAV Y LOGO --------------------------------------------------------------------*/
+
+.LOGONAV {
+    height: 60px;
+    width: 200px;
+    border-radius: 40px;
+}
+.logotipo {
+    margin-left: 100px;
+}
+a {
+    text-decoration: none;
+    color: white !important;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+.PaginasMenu {
+    margin-right: 75px;
+}
+.nav-item {
+    padding-right: 15px;
+}
+
+/* CSS INICIO -----------------------------------------------------------------------------------------*/
+
+.prontogascentro{
+        text-align: center;
+        color: white;
+        margin-top: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+
+/* BIENVENIDOS-----------------------------------------------------------------------------------*/
+.puff-in-center{
+    animation:puff-in-center .8s cubic-bezier(.47,0.000,.745,.715) both;
+    font-size: 800%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+@keyframes puff-in-center{
+    0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}
+}
+
+/* SUBTITULO-----------------------------------------------------------------------------------*/
+.puff-in-center1{
+    animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) 1s both;
+    font-size: 24px;
+    margin-top: 20px;
+}
+@keyframes puff-in-center{
+    0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}
+}
+
+/* ESLOGAN-----------------------------------------------------------------------------------*/
+.eslogan{
+    font-size: 5rem;
+    margin-top: 50px;
+}
+
+/* CSS FOOTER ---------------------------------------------------------------------------------------*/
+
+.copy{
+    color: white;
+    font-size: 16px;
+}
+
+.wilogo{
+    height: 100%;
+    width: 100%;
+}
+.wi{
+    list-style: none;
+}
+
+.blink-2{
+    animation:blink-2 1s infinite both;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+@keyframes blink-2{
+    0%{opacity:1}50%{opacity:.2}100%{opacity:1}
+}
+
+/* CSS QUINES SOMOS ---------------------------------------------------------------------------------*/
+
+
+.text-focus-in1SOMOS{
+    animation:text-focus-in .6s cubic-bezier(.55,.085,.68,.53) both;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration-line: underline;
+}
+@keyframes text-focus-in{
+    0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}
+}
+
+.text-focus-inDESCRIPCION{
+    animation:text-focus-in .8s cubic-bezier(.55,.085,.68,.53) .5s both;
+    color: white;
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+}
+@keyframes text-focus-in{
+    0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}
+}
+
+.media{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.fotoflota{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.quienessomos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* CSS PRODUCTOS --------------------------------------------------------------------------------*/
+
+.card{
+    height: 350px;
+    width: 200px;
+}
+
+.listadeproductos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fotoProducto{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.card-text{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+    background-color: #007aff;
+}
+
+/* CSS PUNTO DE VENTA ----------------------------------------------------------------------------*/
+
+.infoventa{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.infoventa1{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.puntosVenta{
+    margin-top: 30px;
+}
+
+/* CSS CONTACTO ----------------------------------------------------------------------------------*/
+
+.listaContacto{
+    color: white;
+    font-size: 20px;
+}
+.formulario{
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    --primary-color: #3f99f8;
+    --secondary-color: #fff;
+    --hover-color: #002ae7;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+}
+
+button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+}
+
+button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+button:hover .arrow {
+    background: var(--secondary-color);
+}
+
+button:hover .arrow:before {
+    right: 0;
+}
+
+
+
+/*----------------------------------MEDIA---------------------------------------------------------*/
+
+@media (max-width: 767.98px) { 
+    .listadeproductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .puntosDeVenta{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .datosContacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .infoventa{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .listadeproductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .puntosDeVenta{
+        display: flex;
+        flex-direction: column;
+    }
+    .datosContacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .infoventa{
+        margin-top: 100px;
+    }
+}
