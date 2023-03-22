@@ -144,7 +144,6 @@ a {
 .fotoProducto{
     height: 100%;
     width: 100%;
-    border: 0;
 }
 
 .card-text{
@@ -157,6 +156,7 @@ a {
 .card{
     background-color: #007aff;
 }
+
 
 /* CSS PUNTO DE VENTA ----------------------------------------------------------------------------*/
 
@@ -255,6 +255,9 @@ button:hover .arrow:before {
         display: flex;
         flex-direction: column;
     }
+    .card{
+        margin-top: 40px;
+    }
     .puntosDeVenta{
         display: flex;
         flex-direction: column;
@@ -273,6 +276,9 @@ button:hover .arrow:before {
     .listadeproductos{
         display: flex;
         flex-direction: column;
+    }
+    .card{
+        margin-top: 40px;
     }
     .puntosDeVenta{
         display: flex;
