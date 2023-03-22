@@ -266,9 +266,16 @@ button:hover .arrow:before {
     .datosContacto{
         display: flex;
         flex-direction: column;
+        margin-top: 100px;
+    }
+    .formulario1{
+        margin-top: 75px;
     }
     .infoventa{
         margin-top: 100px;
+    }
+    .botonVerMas{
+        display: none;
     }
 }
 
@@ -287,8 +294,15 @@ button:hover .arrow:before {
     .datosContacto{
         display: flex;
         flex-direction: column;
+        margin-top: 100px;
+    }
+    .formulario1{
+        margin-top: 75px;
     }
     .infoventa{
         margin-top: 100px;
+    }
+    .botonVerMas{
+        display: none;
     }
 }

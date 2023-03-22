@@ -47,45 +47,51 @@
 
     <main class="container-fluid">
         <div class="row h-100">
-            <section class="d-flex justify-content-evenly align-items-center px-0 datosContacto">
-                <div class="col-xxl-6" data-aos="zoom-in-right" data-aos-duration="1000">
-                    <ul class="listaContacto">
-                        <li><a href="https://goo.gl/maps/2Kmor7LCVSEjj4FbA" class="px-0" target="blank">Buenos Aires 720,
-                                <b>Roldán</b>, Santa
-                                Fe</a></li>
-                        <li>Telefono: 341-6123010</li>
-                        <li>Horarios: L a V - 8:00 a 18:00 / S - 8:00 a 13:00</li>
-                        <li><a href="mailto:contactoprontogas@gmail.com?subject=Contacto Pronto Gas" class="px-0"
-                                target="blank">Email: contacto@prontogas.com</a></li>
-                    </ul>
-                </div>
+            <section class="d-flex justify-content-evenly align-items-center datosContacto">
+                <article class="col-xxl-6 px-0">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000">
+                        <ul class="listaContacto">
+                            <li><a href="https://goo.gl/maps/2Kmor7LCVSEjj4FbA" class="px-0" target="blank">Buenos Aires
+                                    720,
+                                    <b>Roldán</b>, Santa
+                                    Fe</a></li>
+                            <li>Telefono: 341-6123010</li>
+                            <li>Horarios: L a V - 8:00 a 18:00 / S - 8:00 a 13:00</li>
+                            <li><a href="mailto:contactoprontogas@gmail.com?subject=Contacto Pronto Gas" class="px-0"
+                                    target="blank">Email: contacto@prontogas.com</a></li>
+                        </ul>
+                    </div>
+                </article>
                 <br>
-                <form action="forms" data-aos="zoom-in-left" data-aos-duration="1000">
-                    <div class="row">
-                        <div class="col">
-                            <label for="Nombre">Nombre</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Nombre" required>
+                <article class="col-xxl-6 formulario1">
+                    <form action="forms" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col">
+                                <label for="Nombre">Nombre</label>
+                                <input type="text" class="form-control" placeholder="" aria-label="Nombre" required>
+                            </div>
+                            <div class="col">
+                                <label for="Apellido">Apellido</label>
+                                <input type="text" class="form-control" placeholder="" aria-label="Apellido" required>
+                            </div>
                         </div>
-                        <div class="col">
-                            <label for="Apellido">Apellido</label>
-                            <input type="text" class="form-control" placeholder="" aria-label="Apellido" required>
+                        <div class="mb-5">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nombre@ejemplo.com" required>
                         </div>
-                    </div>
-                    <div class="mb-5">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
-                    </div>
-                    <div class="mb-5">
-                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button>
-                        <p>Enviar</p>
-                        <div class="arrow-wrapper">
-                            <div class="arrow"></div>
+                        <div class="mb-5">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                    </button>
-                </form>
+                        <button>
+                            <p>Enviar</p>
+                            <div class="arrow-wrapper">
+                                <div class="arrow"></div>
+                            </div>
+                        </button>
+                    </form>
+                </article>
             </section>
         </div>
     </main>
