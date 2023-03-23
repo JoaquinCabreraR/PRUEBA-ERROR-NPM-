@@ -248,7 +248,10 @@ button:hover {
   .infoventa {
     margin-top: 100px; }
   .botonVerMas {
-    display: none; } }
+    display: none; }
+  .videoypf {
+    height: 200px;
+    width: 300px; } }
 
 @media (max-width: 991.98px) {
   .listadeproductos {
@@ -268,4 +271,7 @@ button:hover {
   .infoventa {
     margin-top: 100px; }
   .botonVerMas {
-    display: none; } }
+    display: none; }
+  .videoypf {
+    height: 200px;
+    width: 300px; } }
