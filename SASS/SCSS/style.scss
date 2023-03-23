@@ -1,4 +1,5 @@
 @import "./reset";
+@import "./footer";
 
 
 
@@ -36,24 +37,18 @@ a {
 }
 
 /* BIENVENIDOS-----------------------------------------------------------------------------------*/
-.puff-in-center{
-    animation:puff-in-center .8s cubic-bezier(.47,0.000,.745,.715) both;
+
+.tituloPrincipal{
     font-size: 800%;
     text-decoration: underline;
     font-weight: bold;
 }
-@keyframes puff-in-center{
-    0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}
-}
 
 /* SUBTITULO-----------------------------------------------------------------------------------*/
-.puff-in-center1{
-    animation:puff-in-center .7s cubic-bezier(.47,0.000,.745,.715) 1s both;
+
+.subtitulo{
     font-size: 24px;
     margin-top: 20px;
-}
-@keyframes puff-in-center{
-    0%{transform:scale(2);filter:blur(4px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}
 }
 
 /* ESLOGAN-----------------------------------------------------------------------------------*/
@@ -64,29 +59,40 @@ a {
 
 /* CSS FOOTER ---------------------------------------------------------------------------------------*/
 
-.copy{
+.copy {
     color: white;
     font-size: 16px;
 }
 
-.wilogo{
+.wilogo {
     height: 100%;
     width: 100%;
 }
-.wi{
+
+.wi {
     list-style: none;
 }
 
-.blink-2{
-    animation:blink-2 1s infinite both;
+.blink-2 {
+    animation: blink-2 1s infinite both;
     height: 30px;
     width: 30px;
     margin-left: 20px;
 }
-@keyframes blink-2{
-    0%{opacity:1}50%{opacity:.2}100%{opacity:1}
-}
 
+@keyframes blink-2 {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: .2
+    }
+
+    100% {
+        opacity: 1
+    }
+}
 /* CSS QUINES SOMOS ---------------------------------------------------------------------------------*/
 
 
@@ -157,7 +163,18 @@ a {
     background-color: #007aff;
 }
 
+.botonVerMas{
+    font-size: 15px;
+}
 
+.modal-body{
+    font-size: 16px;
+}
+
+.tituloModal{
+    font-size: 18px;
+    font-weight: bold;
+}
 /* CSS PUNTO DE VENTA ----------------------------------------------------------------------------*/
 
 .infoventa{
@@ -182,6 +199,11 @@ a {
     font-size: 20px;
 }
 .formulario{
+    color: white;
+    font-size: 20px;
+}
+
+.titulosFormulario{
     color: white;
     font-size: 20px;
 }
