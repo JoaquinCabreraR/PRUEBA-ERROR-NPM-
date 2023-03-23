@@ -28,52 +28,23 @@ footer {
   width: 100%;
   margin-top: 150px; }
 
-/* CSS INDEX, HEADER, NAV Y LOGO --------------------------------------------------------------------*/
-.LOGONAV {
-  height: 60px;
-  width: 200px;
-  border-radius: 40px; }
-
 .logotipo {
   margin-left: 100px; }
-
-a {
-  text-decoration: none;
-  color: white !important;
-  padding: 0px 10px 0px 10px;
-  font-size: 20px; }
+  .logotipo .LOGONAV {
+    height: 60px;
+    width: 200px;
+    border-radius: 40px; }
 
 .PaginasMenu {
   margin-right: 75px; }
+  .PaginasMenu .nav-item {
+    padding-right: 15px; }
+    .PaginasMenu .nav-item .nav-link {
+      color: white;
+      text-decoration: none;
+      padding: 0px 10px 0px 10px;
+      font-size: 18px; }
 
-.nav-item {
-  padding-right: 15px; }
-
-/* CSS INICIO -----------------------------------------------------------------------------------------*/
-.prontogascentro {
-  text-align: center;
-  color: white;
-  margin-top: 70px;
-  padding-left: 0px;
-  padding-right: 0px; }
-
-/* BIENVENIDOS-----------------------------------------------------------------------------------*/
-.tituloPrincipal {
-  font-size: 800%;
-  text-decoration: underline;
-  font-weight: bold; }
-
-/* SUBTITULO-----------------------------------------------------------------------------------*/
-.subtitulo {
-  font-size: 24px;
-  margin-top: 20px; }
-
-/* ESLOGAN-----------------------------------------------------------------------------------*/
-.eslogan {
-  font-size: 5rem;
-  margin-top: 50px; }
-
-/* CSS FOOTER ---------------------------------------------------------------------------------------*/
 .copy {
   color: white;
   font-size: 16px; }
@@ -99,13 +70,34 @@ a {
   100% {
     opacity: 1; } }
 
-/* CSS QUINES SOMOS ---------------------------------------------------------------------------------*/
-.text-focus-in1SOMOS {
-  animation: text-focus-in 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  color: white;
-  font-size: 4rem;
+.prontogascentro {
   text-align: center;
-  text-decoration-line: underline; }
+  color: white;
+  margin-top: 70px;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .prontogascentro .tituloPrincipal {
+    font-size: 800%;
+    text-decoration: underline;
+    font-weight: bold; }
+
+.subtitulo {
+  font-size: 24px;
+  margin-top: 20px; }
+
+.eslogan {
+  font-size: 5rem;
+  margin-top: 50px; }
+
+.quienessomos {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+  .quienessomos .text-focus-in1SOMOS {
+    animation: text-focus-in 0.6s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration-line: underline; }
 
 @keyframes text-focus-in {
   0% {
@@ -134,28 +126,21 @@ a {
   text-align: center;
   margin-top: 25px;
   margin-bottom: 50px; }
-
-.fotoflota {
-  height: 100%;
-  width: 100%;
-  margin-top: 50px; }
-
-.quienessomos {
-  margin-top: 70px;
-  margin-bottom: 70px; }
-
-/* CSS PRODUCTOS --------------------------------------------------------------------------------*/
-.card {
-  height: 350px;
-  width: 200px; }
+  .media .fotoflota {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px; }
 
 .listadeproductos {
   margin-top: 70px;
   margin-bottom: 70px; }
-
-.fotoProducto {
-  height: 100%;
-  width: 100%; }
+  .listadeproductos .card {
+    height: 350px;
+    width: 200px;
+    background-color: #007aff; }
+    .listadeproductos .card .fotoProducto {
+      height: 100%;
+      width: 100%; }
 
 .card-text {
   color: white;
@@ -163,45 +148,34 @@ a {
   font-weight: bold;
   text-align: center; }
 
-.card {
-  background-color: #007aff; }
-
 .botonVerMas {
   font-size: 15px; }
-
-.modal-body {
-  font-size: 16px; }
 
 .tituloModal {
   font-size: 18px;
   font-weight: bold; }
 
-/* CSS PUNTO DE VENTA ----------------------------------------------------------------------------*/
-.infoventa {
-  color: white;
-  text-align: center;
-  font-size: 3rem;
-  text-decoration: underline; }
+.modal-body {
+  font-size: 16px; }
+
+.puntosVenta {
+  margin-top: 30px; }
+  .puntosVenta .infoventa {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline; }
 
 .infoventa1 {
   color: white;
   font-size: 1.5rem; }
 
-.puntosVenta {
-  margin-top: 30px; }
-
-/* CSS CONTACTO ----------------------------------------------------------------------------------*/
 .listaContacto {
   color: white;
-  font-size: 20px; }
-
-.formulario {
-  color: white;
-  font-size: 20px; }
-
-.titulosFormulario {
-  color: white;
-  font-size: 20px; }
+  font-size: 2rem; }
+  .listaContacto .linkContacto {
+    color: white;
+    text-decoration: none; }
 
 button {
   --primary-color: #3f99f8;
@@ -220,43 +194,40 @@ button {
   align-items: center;
   gap: 0.6em;
   font-weight: bold; }
+  button p {
+    font-size: 15px; }
 
 button .arrow-wrapper {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-button .arrow {
-  margin-top: 1px;
-  width: var(--arrow-width);
-  background: var(--primary-color);
-  height: var(--arrow-stroke);
-  position: relative;
-  transition: 0.2s; }
-
-button .arrow::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  border: solid var(--secondary-color);
-  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
-  display: inline-block;
-  top: -3px;
-  right: 3px;
-  transition: 0.2s;
-  padding: 3px;
-  transform: rotate(-45deg); }
+  button .arrow-wrapper button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s; }
+    button .arrow-wrapper button .arrow button .arrow::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg); }
 
 button:hover {
   background-color: var(--hover-color); }
+  button:hover button:hover .arrow {
+    background: var(--secondary-color); }
+    button:hover button:hover .arrow button:hover .arrow:before {
+      right: 0; }
 
-button:hover .arrow {
-  background: var(--secondary-color); }
-
-button:hover .arrow:before {
-  right: 0; }
-
-/*----------------------------------MEDIA---------------------------------------------------------*/
 @media (max-width: 767.98px) {
   .listadeproductos {
     display: flex;

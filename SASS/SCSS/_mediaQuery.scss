@@ -1,0 +1,57 @@
+
+@media (max-width: 767.98px) { 
+    .listadeproductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-top: 40px;
+    }
+    .puntosDeVenta{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .datosContacto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .formulario1{
+        margin-top: 75px;
+    }
+    .infoventa{
+        margin-top: 100px;
+    }
+    .botonVerMas{
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .listadeproductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-top: 40px;
+    }
+    .puntosDeVenta{
+        display: flex;
+        flex-direction: column;
+    }
+    .datosContacto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .formulario1{
+        margin-top: 75px;
+    }
+    .infoventa{
+        margin-top: 100px;
+    }
+    .botonVerMas{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+.listadeproductos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    .card{
+        height: 350px;
+        width: 200px;
+        background-color: #007aff;
+        .fotoProducto{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.card-text{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.botonVerMas{
+    font-size: 15px;
+}
+.tituloModal{
+    font-size: 18px;
+    font-weight: bold;
+}
+.modal-body{
+    font-size: 16px;
+}

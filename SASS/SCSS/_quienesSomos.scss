@@ -1,0 +1,37 @@
+.quienessomos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    .text-focus-in1SOMOS{
+        animation:text-focus-in .6s cubic-bezier(.55,.085,.68,.53) both;
+        color: white;
+        font-size: 4rem;
+        text-align: center;
+        text-decoration-line: underline;
+    }
+    @keyframes text-focus-in{
+        0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}
+        
+    }
+}
+
+.text-focus-inDESCRIPCION{
+    animation:text-focus-in .8s cubic-bezier(.55,.085,.68,.53) .5s both;
+    color: white;
+    font-size: 2rem;
+    text-align: justify;
+    margin: 20px;
+}
+@keyframes text-focus-in{
+    0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}
+}
+
+.media{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    .fotoflota{
+        height: 100%;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
