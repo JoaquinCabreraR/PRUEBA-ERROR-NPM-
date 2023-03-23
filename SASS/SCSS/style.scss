@@ -1,16 +1,10 @@
-@import "./reset";
-@import "./nav";
-@import "./footer";
-@import "./index";
-@import "./quienesSomos";
-@import "./productos";
-@import "./puntosDeVenta";
-@import "./contacto";
-@import "./mediaQuery";
-
-
-
-
-
-
-
+@import "./utilities/variables";
+@import "./base/reset";
+@import "./layout/nav";
+@import "./layout/footer";
+@import "./views/index";
+@import "./views/quienesSomos";
+@import "./views/productos";
+@import "./views/puntosDeVenta";
+@import "./views/contacto";
+@import "./layout/mediaQuery";

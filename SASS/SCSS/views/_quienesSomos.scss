@@ -3,7 +3,7 @@
     margin-bottom: 70px;
     .text-focus-in1SOMOS{
         animation:text-focus-in .6s cubic-bezier(.55,.085,.68,.53) both;
-        color: white;
+        color: $secondaryColor;
         font-size: 4rem;
         text-align: center;
         text-decoration-line: underline;
@@ -15,8 +15,8 @@
 }
 
 .text-focus-inDESCRIPCION{
-    animation:text-focus-in .8s cubic-bezier(.55,.085,.68,.53) .5s both;
-    color: white;
+    animation:text-focus-in .7s cubic-bezier(.55,.085,.68,.53) .5s both;
+    color: $secondaryColor;
     font-size: 2rem;
     text-align: justify;
     margin: 20px;
