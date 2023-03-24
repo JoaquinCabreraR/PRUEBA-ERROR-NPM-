@@ -257,7 +257,9 @@ button:hover {
   .subtitulo {
     font-size: 18px; }
   .eslogan {
-    font-size: 3.5rem; } }
+    font-size: 3.5rem; }
+  .copy {
+    font-size: 11px; } }
 
 @media (max-width: 991.98px) {
   .listadeproductos {
