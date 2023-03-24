@@ -259,7 +259,9 @@ button:hover {
   .eslogan {
     font-size: 3rem; }
   .copy {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .formulario {
+    margin-top: 70px; } }
 
 @media (max-width: 991.98px) {
   .listadeproductos {
@@ -279,4 +281,6 @@ button:hover {
   .infoventa {
     margin-top: 100px; }
   .botonVerMas {
-    display: none; } }
+    display: none; }
+  .formulario {
+    margin-top: 70px; } }

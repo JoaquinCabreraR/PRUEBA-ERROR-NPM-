@@ -42,6 +42,9 @@
     .copy{
         font-size: 10px;
     }
+    .formulario{
+        margin-top: 70px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -69,5 +72,8 @@
     }
     .botonVerMas{
         display: none;
+    }
+    .formulario{
+        margin-top: 70px;
     }
 }
